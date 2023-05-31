@@ -1,9 +1,9 @@
 import "./style.css";
-import cardBack from "../../assets/card-back.png";
-import cards from "../../cards";
+import cardBack from "./assets/card-back.png";
+import cards from "./cards";
 import { useState } from "react";
-import Card from "../../components/cards/Card";
-import congrats from "../../assets/congrats.png";
+import Card from "./components/cards/Card";
+import congrats from "./assets/congrats.png";
 
 function Main() {
   let images = [];
